@@ -1,0 +1,113 @@
+{
+ "labels": "data/labels_world_es.json",
+ "classes": 214,
+ "new_classes": 19,
+ "proto_renders": 40,
+ "test_per_class": 20,
+ "models": {
+  "outputs/mnv3_v3/best.pt": {
+   "synthetic/new/head": {
+    "top1": 0.0,
+    "top4": 0.0,
+    "top10": 0.0,
+    "n": 380,
+    "per_flag_top4": {
+     "es-an": 0.0,
+     "es-ar": 0.0,
+     "es-as": 0.0,
+     "es-cb": 0.0,
+     "es-ce": 0.0,
+     "es-cl": 0.0,
+     "es-cm": 0.0,
+     "es-cn": 0.0,
+     "es-ct": 0.0,
+     "es-ex": 0.0,
+     "es-ga": 0.0,
+     "es-ib": 0.0,
+     "es-mc": 0.0,
+     "es-md": 0.0,
+     "es-ml": 0.0,
+     "es-nc": 0.0,
+     "es-pv": 0.0,
+     "es-ri": 0.0,
+     "es-vc": 0.0
+    },
+    "confused_top1": [
+     "es-cn->ua x18",
+     "es-md->tr x18",
+     "es-mc->cn x17",
+     "es-ga->sm x15",
+     "es-ct->lr x13",
+     "es-ex->ae x12",
+     "es-ml->sm x11",
+     "es-ri->gq x9",
+     "es-ce->eg x9",
+     "es-nc->kg x9"
+    ]
+   },
+   "synthetic/base/head": {
+    "top1": 0.9774358974358974,
+    "top4": 0.9961538461538462,
+    "top10": 0.9984615384615385,
+    "n": 3900
+   },
+   "synthetic/new/fingerprint": {
+    "top1": 0.9236842105263158,
+    "top4": 1.0,
+    "top10": 1.0,
+    "n": 380,
+    "per_flag_top4": {
+     "es-an": 1.0,
+     "es-ar": 1.0,
+     "es-as": 1.0,
+     "es-cb": 1.0,
+     "es-ce": 1.0,
+     "es-cl": 1.0,
+     "es-cm": 1.0,
+     "es-cn": 1.0,
+     "es-ct": 1.0,
+     "es-ex": 1.0,
+     "es-ga": 1.0,
+     "es-ib": 1.0,
+     "es-mc": 1.0,
+     "es-md": 1.0,
+     "es-ml": 1.0,
+     "es-nc": 1.0,
+     "es-pv": 1.0,
+     "es-ri": 1.0,
+     "es-vc": 1.0
+    },
+    "confused_top1": [
+     "es-ib->es-ct x5",
+     "es-vc->es-ct x4",
+     "es-md->tr x2",
+     "es-ct->es-ib x2",
+     "es-ar->es-ib x1",
+     "es-cm->mc x1",
+     "es-ar->es-vc x1",
+     "es-ar->es-ct x1",
+     "es-ga->kr x1",
+     "es-ib->id x1"
+    ]
+   },
+   "synthetic/base/fingerprint": {
+    "top1": 0.9656410256410256,
+    "top4": 0.9935897435897436,
+    "top10": 0.997948717948718,
+    "n": 3900
+   },
+   "real/base/head": {
+    "top1": 0.7619047619047619,
+    "top4": 0.9126984126984127,
+    "top10": 0.9682539682539683,
+    "n": 126
+   },
+   "real/base/fingerprint": {
+    "top1": 0.753968253968254,
+    "top4": 0.9047619047619048,
+    "top10": 0.9761904761904762,
+    "n": 126
+   }
+  }
+ }
+}

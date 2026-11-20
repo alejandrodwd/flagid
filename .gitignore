@@ -1,0 +1,33 @@
+# macOS, editors
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Xcode build output (FlagLogApp/.gitignore covers the rest)
+build/
+DerivedData/
+
+# flagid datasets: large, downloaded or generated. Recreate them with the commands in
+# flagid/README.md. Only the label lists and the flag SVG catalog are tracked.
+flagid/data/*
+!flagid/data/labels.json
+!flagid/data/labels_world_es.json
+!flagid/data/flags/
+
+# Private photos: never commit these, or anything derived from them.
+flagid/data/real_val/
+flagid/outputs/*/eval_real_val/*
+!flagid/outputs/*/eval_real_val/report.json
+
+# flagid outputs: checkpoints and logs (logs contain local paths). The Core ML export,
+# training curves, metrics and sample grid are tracked.
+*.pt
+*.pth
+flagid/outputs/**/*.log
+flagid/outputs/*.log
+flagid/outputs/**/export_report.json

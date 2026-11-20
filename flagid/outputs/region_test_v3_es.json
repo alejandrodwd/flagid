@@ -1,0 +1,110 @@
+{
+ "labels": "data/labels_world_es.json",
+ "classes": 214,
+ "new_classes": 19,
+ "proto_renders": 40,
+ "test_per_class": 20,
+ "models": {
+  "outputs/mnv3_v3_es/best.pt": {
+   "synthetic/new/head": {
+    "top1": 0.968421052631579,
+    "top4": 1.0,
+    "top10": 1.0,
+    "n": 380,
+    "per_flag_top4": {
+     "es-an": 1.0,
+     "es-ar": 1.0,
+     "es-as": 1.0,
+     "es-cb": 1.0,
+     "es-ce": 1.0,
+     "es-cl": 1.0,
+     "es-cm": 1.0,
+     "es-cn": 1.0,
+     "es-ct": 1.0,
+     "es-ex": 1.0,
+     "es-ga": 1.0,
+     "es-ib": 1.0,
+     "es-mc": 1.0,
+     "es-md": 1.0,
+     "es-ml": 1.0,
+     "es-nc": 1.0,
+     "es-pv": 1.0,
+     "es-ri": 1.0,
+     "es-vc": 1.0
+    },
+    "confused_top1": [
+     "es-ml->pw x1",
+     "es-md->tr x1",
+     "es-vc->es-ct x1",
+     "es-cm->sg x1",
+     "es-ar->es-vc x1",
+     "es-ar->es-ct x1",
+     "es-ib->my x1",
+     "es-an->ng x1",
+     "es-ex->ae x1",
+     "es-ct->es-ib x1"
+    ]
+   },
+   "synthetic/base/head": {
+    "top1": 0.9743589743589743,
+    "top4": 0.9956410256410256,
+    "top10": 0.9987179487179487,
+    "n": 3900
+   },
+   "synthetic/new/fingerprint": {
+    "top1": 0.9736842105263158,
+    "top4": 1.0,
+    "top10": 1.0,
+    "n": 380,
+    "per_flag_top4": {
+     "es-an": 1.0,
+     "es-ar": 1.0,
+     "es-as": 1.0,
+     "es-cb": 1.0,
+     "es-ce": 1.0,
+     "es-cl": 1.0,
+     "es-cm": 1.0,
+     "es-cn": 1.0,
+     "es-ct": 1.0,
+     "es-ex": 1.0,
+     "es-ga": 1.0,
+     "es-ib": 1.0,
+     "es-mc": 1.0,
+     "es-md": 1.0,
+     "es-ml": 1.0,
+     "es-nc": 1.0,
+     "es-pv": 1.0,
+     "es-ri": 1.0,
+     "es-vc": 1.0
+    },
+    "confused_top1": [
+     "es-ib->es-ct x2",
+     "es-vc->es-ct x2",
+     "es-ar->es-ct x2",
+     "es-cm->mc x1",
+     "es-ar->es-vc x1",
+     "es-an->ng x1",
+     "es-ex->ae x1"
+    ]
+   },
+   "synthetic/base/fingerprint": {
+    "top1": 0.9635897435897436,
+    "top4": 0.9938461538461538,
+    "top10": 0.9976923076923077,
+    "n": 3900
+   },
+   "real/base/head": {
+    "top1": 0.746031746031746,
+    "top4": 0.8888888888888888,
+    "top10": 0.9603174603174603,
+    "n": 126
+   },
+   "real/base/fingerprint": {
+    "top1": 0.753968253968254,
+    "top4": 0.9285714285714286,
+    "top10": 0.9523809523809523,
+    "n": 126
+   }
+  }
+ }
+}

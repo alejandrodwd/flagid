@@ -1,0 +1,256 @@
+{
+  "n": 126,
+  "num_classes_present": 18,
+  "top1": 0.7619047619047619,
+  "top3": 0.873015873015873,
+  "top4": 0.9126984126984127,
+  "top5": 0.9365079365079365,
+  "top10": 0.9682539682539683,
+  "calibration": {
+    "mean_conf_correct": 0.7169125080108643,
+    "mean_conf_wrong": 0.32286447286605835
+  },
+  "per_class": {
+    "al": {
+      "n": 7,
+      "top1": 1.0,
+      "top4": 1.0,
+      "median_rank": 1.0
+    },
+    "br": {
+      "n": 7,
+      "top1": 0.8571428571428571,
+      "top4": 1.0,
+      "median_rank": 1.0
+    },
+    "ci": {
+      "n": 7,
+      "top1": 1.0,
+      "top4": 1.0,
+      "median_rank": 1.0
+    },
+    "co": {
+      "n": 7,
+      "top1": 1.0,
+      "top4": 1.0,
+      "median_rank": 1.0
+    },
+    "de": {
+      "n": 7,
+      "top1": 1.0,
+      "top4": 1.0,
+      "median_rank": 1.0
+    },
+    "es": {
+      "n": 7,
+      "top1": 0.8571428571428571,
+      "top4": 0.8571428571428571,
+      "median_rank": 1.0
+    },
+    "et": {
+      "n": 7,
+      "top1": 0.8571428571428571,
+      "top4": 1.0,
+      "median_rank": 1.0
+    },
+    "fr": {
+      "n": 7,
+      "top1": 0.2857142857142857,
+      "top4": 1.0,
+      "median_rank": 2.0
+    },
+    "gr": {
+      "n": 7,
+      "top1": 0.8571428571428571,
+      "top4": 1.0,
+      "median_rank": 1.0
+    },
+    "ie": {
+      "n": 7,
+      "top1": 0.0,
+      "top4": 0.7142857142857143,
+      "median_rank": 2.0
+    },
+    "in": {
+      "n": 7,
+      "top1": 0.14285714285714285,
+      "top4": 0.42857142857142855,
+      "median_rank": 5.0
+    },
+    "it": {
+      "n": 7,
+      "top1": 0.7142857142857143,
+      "top4": 0.7142857142857143,
+      "median_rank": 1.0
+    },
+    "jm": {
+      "n": 7,
+      "top1": 1.0,
+      "top4": 1.0,
+      "median_rank": 1.0
+    },
+    "my": {
+      "n": 7,
+      "top1": 1.0,
+      "top4": 1.0,
+      "median_rank": 1.0
+    },
+    "nl": {
+      "n": 7,
+      "top1": 0.5714285714285714,
+      "top4": 0.8571428571428571,
+      "median_rank": 1.0
+    },
+    "np": {
+      "n": 7,
+      "top1": 1.0,
+      "top4": 1.0,
+      "median_rank": 1.0
+    },
+    "th": {
+      "n": 7,
+      "top1": 0.5714285714285714,
+      "top4": 0.8571428571428571,
+      "median_rank": 1.0
+    },
+    "us": {
+      "n": 7,
+      "top1": 1.0,
+      "top4": 1.0,
+      "median_rank": 1.0
+    }
+  },
+  "confused_pairs_top1": [
+    {
+      "true": "ie",
+      "pred": "ci",
+      "count": 6
+    },
+    {
+      "true": "fr",
+      "pred": "mt",
+      "count": 2
+    },
+    {
+      "true": "fr",
+      "pred": "cz",
+      "count": 2
+    },
+    {
+      "true": "in",
+      "pred": "py",
+      "count": 2
+    },
+    {
+      "true": "it",
+      "pred": "ir",
+      "count": 2
+    },
+    {
+      "true": "nl",
+      "pred": "py",
+      "count": 2
+    },
+    {
+      "true": "br",
+      "pred": "tg",
+      "count": 1
+    },
+    {
+      "true": "es",
+      "pred": "eg",
+      "count": 1
+    },
+    {
+      "true": "et",
+      "pred": "bo",
+      "count": 1
+    },
+    {
+      "true": "fr",
+      "pred": "fj",
+      "count": 1
+    },
+    {
+      "true": "gr",
+      "pred": "kr",
+      "count": 1
+    },
+    {
+      "true": "ie",
+      "pred": "ng",
+      "count": 1
+    },
+    {
+      "true": "in",
+      "pred": "hu",
+      "count": 1
+    },
+    {
+      "true": "in",
+      "pred": "sc",
+      "count": 1
+    },
+    {
+      "true": "in",
+      "pred": "ne",
+      "count": 1
+    },
+    {
+      "true": "in",
+      "pred": "ci",
+      "count": 1
+    },
+    {
+      "true": "nl",
+      "pred": "fm",
+      "count": 1
+    },
+    {
+      "true": "th",
+      "pred": "gm",
+      "count": 1
+    },
+    {
+      "true": "th",
+      "pred": "py",
+      "count": 1
+    },
+    {
+      "true": "th",
+      "pred": "nl",
+      "count": 1
+    }
+  ],
+  "no_flag_photos": {
+    "n": 28,
+    "mean_top1_conf": 0.11869511753320694,
+    "mean_top1_conf_on_flag_photos": 0.623091459274292,
+    "share_above": {
+      "0.3": 0.07142857142857142,
+      "0.5": 0.0,
+      "0.7": 0.0
+    },
+    "flag_photos_share_above": {
+      "0.3": 0.8095238095238095,
+      "0.5": 0.7063492063492064,
+      "0.7": 0.5476190476190477
+    }
+  },
+  "source": "real_val",
+  "checkpoint": "outputs/mnv3_v3/best.pt",
+  "checkpoint_epoch": 28,
+  "grouped": {
+    "groups": [
+      "ie/ci",
+      "ml/gn",
+      "id/mc",
+      "td/ro"
+    ],
+    "top1": 0.8095238095238095,
+    "top3": 0.8968253968253969,
+    "top4": 0.9285714285714286,
+    "top5": 0.9365079365079365,
+    "top10": 0.9682539682539683
+  }
+}
