@@ -23,7 +23,9 @@ to pick one flag out of a group. More in <a href="app_screenshots/">app_screensh
 - **MobileNetV3, exported to Core ML.** The int8 model is 4.5 MB and takes under 1 ms per
   image on an M1 Pro's Neural Engine.
 - **Real-photo accuracy:** 80% top-1 and 92% top-4 on 126 real photos of 18 countries. On
-  synthetic validation images, top-1 is 98%.
+  synthetic validation images, top-1 is 98%. The real test set is deliberately hard, with
+  some very small or barely visible flags, so in everyday use the app does better than
+  these numbers.
 - **Lookalike groups:** Ireland / Côte d'Ivoire, Mali / Guinea, Chad / Romania and
   Indonesia / Monaco are near-identical, so each pair is one entry (191 entries in all).
 - **iOS app:**
